@@ -1,0 +1,23 @@
+
+@font-face {
+    src: url('SketchScriptCool.otf');
+}
+
+@font-face {
+    src: url('Bohemian-typewriter.ttf');
+}
+
+.title{
+    -fx-font-family: "Sketch Script Cool";
+    -fx-font-size: 46;
+    -fx-fill:  #0c0c0c;
+    -fx-font-smoothing-type: lcd;
+    
+}
+
+.question-text{
+    -fx-font-family: "Bohemian typewriter";
+    -fx-font-size: 18;
+    -fx-fill:  #221f1f;
+    -fx-font-smoothing-type: lcd;
+}

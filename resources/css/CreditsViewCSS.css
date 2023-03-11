@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'NotoSans';
+    src: url('NotoSans-Regular.ttf');
+}
+
+@font-face {
+    src: url('SketchScriptCool.otf');
+}
+
+
+@font-face {
+    src: url('bastarda.medium.ttf');
+}
+
+.title{
+    -fx-font-family: "Sketch Script Cool";
+    -fx-font-size: 40;
+    -fx-fill:  #0c0c0c;
+    -fx-font-smoothing-type: lcd;
+    
+}
+
+.pane-text {
+    -fx-fill: #181411;
+    -fx-font-family: 'NotoSans';
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+    -fx-font-smoothing-type: lcd;
+}
+
+.pane-btn {
+    -fx-fill: #181411;
+    -fx-font-family: 'NotoSans';
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.card-title {
+    -fx-font-size: 20px;
+}
+
+.quote {
+    -fx-font-family: 'Bastarda';
+    -fx-font-size: 30;
+    -fx-fill: #3b1c1c;
+    -fx-font-smoothing-type: lcd;
+}
+

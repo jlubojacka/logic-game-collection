@@ -1,0 +1,24 @@
+
+.thumbnail {
+    -fx-border-style: solid;
+    -fx-border-width: 10px 3px 10px 3px;
+    -fx-border-color: #6699ff;
+    -fx-border-radius: 5px;
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-alignment: center;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-font-smoothing-type: lcd;
+}
+
+.title-text {
+    -fx-fill: #3c3c3c;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-font-family: "Helvetica";
+    -fx-font-smoothing-type: lcd;
+}

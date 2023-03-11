@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Noto_Sans">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/css/Noto_Sans.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,133 @@
+
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('NotoSans-Regular.ttf');
+}
+
+.menu-pane {
+    -fx-background-image: url(../main/wood2.png), url(../main/menuOwl.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 0px 155px , 0px 0px;
+    -fx-background-size: 180px 500px, contain;
+    
+    -fx-text-fill: #512611;
+    -fx-padding: 10px;
+}
+
+
+.open-pane-btn {
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-background-color: 
+        linear-gradient(#b48a50 0%, #a88048 25%, #b0874e 75%, #b9925a 100%),
+        linear-gradient(#835a35, #6e4b2b),
+        linear-gradient(#9d7843 0%, #967240 20%, #846539 80%, #7d5f36 100%),
+        linear-gradient(#bf9050 0%, #b5884c 20%, #a27a43 80%, #8d6a3a 100%),
+        linear-gradient(#c59859 0%, #c1914e 50%, #bd8a42 51%, #ae7f3d 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 10 7 10 7;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #261003;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.open-pane-btn:hover{
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-background-color: 
+        linear-gradient(#b48a50 0%, #a88048 25%, #b0874e 75%, #b9925a 100%),
+        linear-gradient(#835a35, #6e4b2b),
+        linear-gradient(#9d7843 0%, #967240 20%, #846539 80%, #7d5f36 100%),
+        linear-gradient(#bf9050 0%, #b5884c 20%, #a27a43 80%, #8d6a3a 100%),
+        linear-gradient(#cba46c 0%, #c99f64 50%, #c39655 51%, #bf8e4a 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 10 7 10 7;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #261003;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.menu-btn {
+    -fx-background-color: 
+        linear-gradient(#b48a50 0%, #a88048 25%, #b0874e 75%, #b9925a 100%),
+        linear-gradient(#835a35, #6e4b2b),
+        linear-gradient(#9d7843 0%, #967240 20%, #846539 80%, #7d5f36 100%),
+        linear-gradient(#bf9050 0%, #b5884c 20%, #a27a43 80%, #8d6a3a 100%),
+        linear-gradient(#c59859 0%, #c1914e 50%, #bd8a42 51%, #ae7f3d 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 10 15 10 15;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #261003;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.menu-btn:hover{
+    -fx-background-color: 
+        linear-gradient(#b48a50 0%, #a88048 25%, #b0874e 75%, #b9925a 100%),
+        linear-gradient(#835a35, #6e4b2b),
+        linear-gradient(#9d7843 0%, #967240 20%, #846539 80%, #7d5f36 100%),
+        linear-gradient(#bf9050 0%, #b5884c 20%, #a27a43 80%, #8d6a3a 100%),
+        linear-gradient(#cba46c 0%, #c99f64 50%, #c39655 51%, #bf8e4a 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 10 15 10 15;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #261003;
+    -fx-text-alignment: center;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.info-pane {
+    
+    -fx-background-image: url(../main/infoPane3.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: 0px 0px;
+    
+}
+
+.instructions {
+    -fx-fill: #fffdf3;
+    -fx-font-family: 'NotoSans';
+    -fx-font-size: 17px;
+    -fx-font-weight: normal;
+    -fx-font-smoothing-type: lcd;
+}
+
+
+.end-text{
+    -fx-fill: #fffdf3;
+    -fx-font-family: 'NotoSans';
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+}
+
+.end-title{
+    -fx-font-family: 'NotoSans';
+    -fx-font-size: 21px;
+    -fx-font-weight: normal;
+    -fx-fill: #fffdf3;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

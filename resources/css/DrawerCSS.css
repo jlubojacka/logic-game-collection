@@ -1,0 +1,12 @@
+
+
+@font-face {
+    src: url('Bohemian-typewriter.ttf');
+}
+
+.drawer-label{
+    -fx-font-family: "Bohemian typewriter";
+    -fx-font-size: 19;
+    -fx-fill:  #221f1f;
+    -fx-font-smoothing-type: lcd;
+}

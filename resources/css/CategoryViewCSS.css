@@ -1,0 +1,26 @@
+
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('NotoSans-BoldItalic.ttf');
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.back-button {
+    -fx-alignment: center;
+    -fx-font-family: "Helvetica";
+    -fx-font-weight: normal;
+    -fx-font-size: 14px;
+}
+
+.title {
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-font-style: italic;
+    -fx-font-family: "NotoSans";
+    -fx-font-smoothing-type: lcd;
+    -fx-fill: #3c3c3c;
+}
