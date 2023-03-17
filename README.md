@@ -12,7 +12,7 @@ This application was part of my bachelor thesis.
 Thanks to XML configuration it is possible to edit and add new game levels easily.
 Internationalization was kept in mind so all texts are prepared for translation to other language.
 
-I made custom graphics nad images for user interface in Adobe Photoshop.
+I made custom graphics and images for user interface in Adobe Photoshop.
 
 
 ![Initial scene](/screenshots/main.jpg)
